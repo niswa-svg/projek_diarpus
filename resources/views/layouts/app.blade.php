@@ -22,7 +22,28 @@
         .navbar {
             background: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-blue) 100%);
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: relative; /* biar anak element bisa absolute */
+            z-index: 1000;
         }
+
+        /*buat collapse menu jadi overlay */
+        .navbar-collapse {
+            position: absolute;
+            top: 100%; /* tepat di bawah navbar */
+            left: 0;
+            width: 100%;
+            background: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-blue) 100%);
+            z-index: 9999;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* biar link keliatan jelas */
+        .navbar-nav .nav-link {
+            color: #fff !important;
+            padding: 10px 15px;
+        }
+
         
         .hero-section {
             background: linear-gradient(rgba(30, 58, 138, 0.8), rgba(30, 58, 138, 0.8)), 
