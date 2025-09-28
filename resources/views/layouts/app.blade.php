@@ -29,7 +29,7 @@
         /*buat collapse menu jadi overlay */
         .navbar-collapse {
             position: absolute;
-            top: 100%; /* tepat di bawah navbar */
+            top: 50%; /* tepat di bawah navbar */
             left: 0;
             width: 100%;
             background: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-blue) 100%);
