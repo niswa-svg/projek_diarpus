@@ -6,7 +6,7 @@
     <!-- Hero Section -->
     <section class="hero-section text-center">
         <div class="container">
-            <h1 class="display-4 fw-bold mb-4">Selamat Datang di Diarpus Kota Bogor</h1>
+            <h1 class="display-4 fw-bold mb-4">Selamat Datang test 1 di Diarpus Kota Bogor</h1>
             <p class="lead mb-4">Portal Informasi Dinas Arsip & Perpustakaan Kota Bogor</p>
             <a href="{{ route('news') }}" class="btn btn-light btn-lg">Lihat Berita Terbaru</a>
         </div>
